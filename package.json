@@ -404,11 +404,11 @@
     "spdx-expression-parse": "^3.0.1",
     "spdx-license-ids": "^3.0.13",
     "speedometer": "^1.0.0",
+    "string_decoder": "^0.10.31",
     "string.prototype.matchall": "^4.0.9",
     "string.prototype.trim": "^1.2.8",
     "string.prototype.trimend": "^1.0.7",
     "string.prototype.trimstart": "^1.0.7",
-    "string_decoder": "^0.10.31",
     "strip-ansi": "^6.0.1",
     "strip-bom": "^3.0.0",
     "strip-final-newline": "^2.0.0",
@@ -466,7 +466,10 @@
     "yallist": "^4.0.0",
     "yaml": "^1.10.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
