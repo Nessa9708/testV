@@ -9,6 +9,7 @@
     "preview-email": "email dev"
   },
   "dependencies": {
+    "typescript": "9.4.2",
     "@alan-ai/alan-sdk-web": "^1.8.41",
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.7.1",
