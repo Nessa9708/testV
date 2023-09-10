@@ -1,0 +1,199 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
+}
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+* {
+  box-sizing: border-box;
+  
+}
+
+
+
+.box {
+  width: 120px;
+   
+}
+
+.box .cart {
+  padding-right: 15%;
+ 
+  color: #1b60f5;
+  
+}
+
+.box .log {
+  color: #1b60f5;
+  padding-top: -2%;
+  padding-left: 5%;
+}
+
+.header {
+  background-image: linear-gradient(to right top, #1b60f5, #1b60f5, #e0e40d, #e0e40d);
+ 
+}
+
+.footer {
+   background-image: linear-gradient(to right top, #1b60f5, #1b60f5, #e0e40d, #e0e40d);
+  margin-top: 2%;
+  height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.footerT {
+  font-weight: bold;
+}
+.search2 {
+  background: linear-gradient(to right top, #1b60f5, #1b60f5);
+}
+
+.category {
+  background-image: linear-gradient(to right top, #1b60f5, #1b60f5);
+  color: #e0e40d;
+  
+}
+.category .icon {
+  color: #e0e40d;
+}
+
+.products {
+  padding-left: 6%;
+}
+
+.pharmacy-info {
+  /* width: 31.5%;
+  margin-top: 2%; */
+  float: left;
+  width: auto;
+  overflow:hidden;
+}
+.pharmacy-info img{
+  width: 100%;
+  height: 100%;
+  max-width: 338px;
+  
+}
+.contact-info {
+  /* width: 31.5%;
+  margin-top: 2%; */
+  width: auto;
+  float: left;
+  margin-left: 2%;
+  
+}
+
+.contact-info img{
+  width: 100%;
+  height: 100%;
+  max-width: 345px;
+  max-height: 245px;
+}
+
+.trading-hours {
+  /* width: 31.5%;
+  margin-top: 2%; */
+  width: auto;
+  float: left;
+  margin-left: 2%;
+ 
+}
+
+.week tr {
+  
+  text-align: left;
+}
+
+.trading-hours img{
+  width: 100%;
+  height: 100%;
+  max-width: 345px;
+  max-height: 245px;
+}
+
+ 
+ #products-sec {
+  
+  margin-top: 7%;
+} 
+
+#prodbtn {
+  margin-left: 7%;
+}
+
+/* clock*/
+.datetime {
+  color: #10101E;
+  background: #FFFFFF;
+  padding: 15px 10px;
+  border: 3px solid #2E94E3;
+  border-radius: 5px;
+  width: 310px;
+  margin-top: 55px;
+}
+
+.date {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time span:not(:last-child) {
+  position: relative;
+  margin: 0 6px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child{
+  /*background: #2E94E3;
+  /*font-size: 10px;*/
+  text-transform: uppercase;
+  /*margin-top: 2px;
+  padding: 0 5px;*/
+  border-radius: 3px;
+}
+
+#year {
+  padding: 5px;
+}
+th {
+  text-align: right; 
+  padding-bottom: 5px;
+}
+
+.heading {
+  padding-bottom: 10px;
+
+}
+.week{
+ 
+  text-align: left;
+}
+
+.prod_list {
+  all:unset;
+  color: #202074;
+  align-items: center;
+   
+}
+
+.test2 {
+  color: #10101E;
+  padding-left: 15px;
+}
